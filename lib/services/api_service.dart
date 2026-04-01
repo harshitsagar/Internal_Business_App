@@ -58,16 +58,6 @@ class ApiService {
 
       return mockData.map((json) => Product.fromJson(json)).toList();
 
-      // Actual API call (uncomment if you have real API)
-      /*
-      final response = await http.get(Uri.parse('$baseUrl/products'));
-      if (response.statusCode == 200) {
-        final List<dynamic> data = json.decode(response.body);
-        return data.map((json) => Product.fromJson(json)).toList();
-      } else {
-        throw Exception('Failed to load products');
-      }
-      */
     } catch (e) {
       throw Exception('Error fetching products: $e');
     }
