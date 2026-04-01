@@ -31,7 +31,7 @@ A Flutter-based internal business application for order management and barcode s
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/harshitsagar/yoga-home-assignment.git
+   git clone https://github.com/harshitsagar/Internal_Business_App.git
 
 2. **Install dependencies**
    ```bash
